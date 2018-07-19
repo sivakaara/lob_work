@@ -1,0 +1,173 @@
+Main,Category,Subcategory,Type,Min Range,Max Range,Score
+Bio,CHIN ,Bony ,NA,NA,NA,1
+Bio,CHIN ,Sharp ,NA,NA,NA,-2
+Bio,CHIN ,Round ,NA,NA,NA,1
+Bio,CHIN ,Square ,NA,NA,NA,0
+Bio,CHIN ,Square With Dimples / Split chin,NA,NA,NA,-1
+Bio,CHIN ,Split ,NA,NA,NA,0
+Bio,LIPS ,Lower Lip Slightly Thicker than upper,NA,NA,NA,1
+Bio,LIPS ,Lower lip slightly thicker than upper + Split Chin ,NA,NA,NA,-1
+Bio,LIPS ,Small Lips,NA,NA,NA,-1
+Bio,LIPS ,Tight lip with square jaw,NA,NA,NA,-2
+Bio,LIPS ,Upper Lip covers lower,NA,NA,NA,1
+Bio,LIPS ,Heart Shaped Lips,NA,NA,NA,1
+Bio,LIPS ,Lower Lip Pronounced Outside (Side View),NA,NA,NA,1
+Bio,LIPS ,Lips Pointing Down,NA,NA,NA,-1
+Bio,CHEEKS ,Meety and Fleshy Cheek,NA,NA,NA,1
+Bio,CHEEKS ,100% Round and full cheek ,NA,NA,NA,1
+Bio,CHEEKS ,Sunken Cheek ,NA,NA,NA,-1
+Bio,CHEEKS ,Cheek raised to eye ,NA,NA,NA,1
+Bio,CHEEKS ,Furrow Cheek (Front + Side View),NA,NA,NA,1
+Bio,NOSE ,Thick Aquiline Nose with tip pointing up,NA,NA,NA,1
+Bio,NOSE ,Narrow Aquiline Nose,NA,NA,NA,-1
+Bio,NOSE ,Straight Well formed Nose,NA,NA,NA,1
+Bio,NOSE ,Thick Aquiline Nose with tip bent down,NA,NA,NA,0
+Bio,NOSE ,Aquiline Nose with tip curved down,NA,NA,NA,-1
+Bio,NOSE ,Snub Nose,NA,NA,NA,0
+Bio,EYES ,Large round eyes,NA,NA,NA,1
+Bio,EYES ,Big Space between Eyes,NA,NA,NA,1
+Bio,EYES ,Small Eyes compared to overall face,NA,NA,NA,-1
+Bio,EARS ,Small Ears in comparison to overall face size,NA,NA,NA,1
+Bio,EARS ,Big Ears with Thick Ear Lobe,NA,NA,NA,-1
+Bio,EARS ,Distanced Ears from face ,NA,NA,NA,-1
+Bio,EARS ,Ears that get / start over Eyebrows ,NA,NA,NA,-1
+Bio,EARS ,Vertical Ears,NA,NA,NA,1
+Bio,EARS ,Ears don’t cross eyebrows & bottom of nose ,NA,NA,NA,1
+Bio,FACESHAPE,Round ,NA,NA,NA,1
+Bio,FACESHAPE,Oblong ,NA,NA,NA,-1
+Bio,FACESHAPE,Traingular ,NA,NA,NA,-1
+Bio,FACESHAPE,Square ,NA,NA,NA,1
+Bio,FACESHAPE,Rectangular ,NA,NA,NA,1
+Bio,FACESHAPE,Oval ,NA,NA,NA,1
+Bio,FACESHAPE,Inverted Traingle ,NA,NA,NA,-1
+Bio,FACESHAPE,Diamond ,NA,NA,NA,0
+Bio,EYEBROWS ,Curved ,NA,NA,NA,1
+Bio,EYEBROWS ,Straight ,NA,NA,NA,1
+Bio,EYEBROWS ,Angled ,NA,NA,NA,1
+Bio,EYEBROWS ,High Eyebrows - Compare to nose start ,NA,NA,NA,0
+Bio,EYEBROWS ,Low Eyebrows - Near to eyes ,NA,NA,NA,1
+Bio,EYEBROWS ,Nearly Invisible Eyebrows,NA,NA,NA,0
+Bank,Income,Income0,Value,0,200000,-5
+Bank,Income,Income1,Value,200001,300000,-3
+Bank,Income,Income2,Value,300001,400000,0
+Bank,Income,Income3,Value,400001,500000,1
+Bank,Income,Income4,Value,500001,600000,1
+Bank,Income,Income5,Value,600001,800000,1
+Bank,Income,Income6,Value,800001,1000000,1
+Bank,Income,Income7,Value,1000001,1200000,2
+Bank,Income,Income8,Value,1200001,Null,2
+Bank,Document,Genuine,Value,Null,Null,2
+Bank,Document,Fake,Value,Null,Null,-20
+Bank,Document,Inconclusive,Value,Null,Null,-10
+Bank,Salary Date,Salary Date0,Value,-3,3,1
+Bank,Salary Date,Salary Date1,Value,-5,5,0
+Bank,Salary Date,Salary Date2,Value,-7,7,-5
+Bank,Salary Mode,Cash,Value,Null,Null,-10
+Bank,Salary Mode,NEFT,Value,Null,Null,1
+Bank,Salary Mode,Cheque,Value,Null,Null,1
+Bank,Salary Avg,Salary Avg0,Percentage,-10,10,1
+Bank,Salary Avg,Salary Avg1,Percentage,-20,20,-1
+Bank,Salary Avg,Salary Avg2,Percentage,-21,21,-10
+Bank,Avg. Balance,Avg. Balance0,Percentage,25,,2
+Bank,Avg. Balance,Avg. Balance1,Percentage,15,25,0
+Bank,Avg. Balance,Avg. Balance2,Percentage,5,15,-1
+Bank,Avg. Balance,Avg. Balance3,Percentage,0,5,-5
+Bank,EMI/ECS/Bounce,EMI/ECS/Bounce0,Value,3,,-3
+Bank,EMI/ECS/Bounce,EMI/ECS/Bounce1,Value,1,3,-2
+Bank,EMI/ECS/Bounce,EMI/ECS/Bounce2,Value,0,0,1
+Bank,Bank Charges,Bank Charges0,Value,3,,-3
+Bank,Bank Charges,Bank Charges1,Value,1,3,-2
+Bank,Bank Charges,Bank Charges2,Value,0,0,1
+Bank,Closing Bal,Closing Bal0,Percentage,T<10,,-3
+Bank,Closing Bal,Closing Bal1,Percentage,F>15,,1
+Bank,Closing Bal,Closing Bal2,Percentage,S<25,,-5
+Bank,Closing Bal,Closing Bal3,Percentage,T>15,,2
+Bank,Avg. Debits,Avg. Debits0,Value,0,4,-3
+Bank,Avg. Debits,Avg. Debits1,Value,4,7,1
+Bank,Avg. Debits,Avg. Debits2,Value,7,Null,3
+Bank,ATM Withdrawals,ATM Withdrawals0,Value,0,4,-2
+Bank,ATM Withdrawals,ATM Withdrawals1,Value,4,7,1
+Bank,ATM Withdrawals,ATM Withdrawals2,Value,7,Null,3
+Bank,Spending Pattern,,Percentage,,,
+Bank,Avg. EMI,Avg. EMI0,Percentage,40,Null,-10
+Bank,Avg. EMI,Avg. EMI1,Percentage,30,40,-7
+Bank,Avg. EMI,Avg. EMI2,Percentage,20,30,-3
+Bank,Avg. EMI,Avg. EMI3,Percentage,10,20,1
+Bank,Avg. EMI,Avg. EMI4,Percentage,0,10,3
+Bank,Credit Count,Credit Count0,Value,0,2,2
+Bank,Credit Count,Credit Count1,Value,2,4,0
+Bank,Credit Count,Credit Count2,Value,4,Null,-3
+Bank,Account Number,Account Number0,Value,1,,1
+Bank,Account Number,Account Number1,Value,0,,-10
+Bank,User Address,User Address0,Value,1,,2
+Bank,User Address,User Address1,Value,0,,-5
+Bank,User Address,User Address2,Value,null,,0
+Bank,Bank Branch,Bank Branch0,Value,1,,1
+Bank,Bank Branch,Bank Branch1,Value,0,,-5
+Bank,Bank Branch,Bank Branch2,Value,null,,0
+Bank,Statements,Statements0,Value,1,,2
+Bank,Statements,Statements1,Value,0,,-5
+Bank,Salary Credits,Salary Credits0,Value,1,,2
+Bank,Salary Credits,Salary Credits1,Value,0,,-3
+,Family Loan,Spouse,Value,,,1
+,Family Loan,No,Value,,,0
+,Family Loan,Parents,Value,,,1
+,Family Loan,Siblings,Value,,,1
+FB,No FB/In,Null,,,,-3
+FB,FB + IN,No. of Connections0,Value,0,50,-3
+FB,FB + IN,No. of Connections1,Value,51,100,-2
+FB,FB + IN,No. of Connections2,Value,101,200,0
+FB,FB + IN,No. of Connections3,Value,201,300,1
+FB,FB + IN,No. of Connections4,Value,301,,2
+FB,FB + IN,Age of Account0,Value,0,6,-3
+FB,FB + IN,Age of Account1,Value,7,12,-2
+FB,FB + IN,Age of Account2,Value,13,24,-1
+FB,FB + IN,Age of Account3,Value,25,48,0
+FB,FB + IN,Age of Account4,Value,49,,1
+FB,FB + IN,Activity Rate0,Value,9,NA,-3
+FB,FB + IN,Activity Rate1,Value,6,9,-2
+FB,FB + IN,Activity Rate2,Value,3,6,-1
+FB,FB + IN,Activity Rate3,Value,1,3,0
+FB,FB + IN,Activity Rate4,Value,1,0,1
+FB,FB + IN,Activity Rate5,Value,0.5,0,2
+FB,FB + IN,Qualification Match0,BOOL,1,1,1
+FB,FB + IN,Qualification Match1,BOOL,0,0,-3
+FB,FB + IN,Qualification Match2,BOOL,Null,Null,1
+FB,FB,Marital Status0,BOOL,1,1,1
+FB,FB,Marital Status1,BOOL,0,0,-3
+FB,FB,Marital Status2,BOOL,Null,Null,1
+FB,FB,Present Location0,BOOL,1,1,1
+FB,FB,Present Location1,BOOL,0,0,-3
+FB,FB,Present Location2,BOOL,Null,Null,1
+FB,FB,Family Connections0,BOOL,1,1,1
+FB,FB,Family Connections1,BOOL,0,0,-3
+FB,FB,Family Connections2,BOOL,Null,Null,1
+FB,FB,Likes,Value,,,
+FB,FB,Interests,Value,,,
+FB,FB,Hobbies,Value,,,
+FB,FB,RMN1,BOOL,1,1,1
+FB,FB,RMN0,BOOL,0,0,-3
+GMAIL,GMAIL,SYNC,BOOL,1,1,1
+GMAIL,GMAIL,SYNC,BOOL,0,0,-3
+GMAIL,GMAIL,SYNC,BOOL,Null,Null,1
+GMAIL,GMAIL,BS1,BOOL,1,1,1
+GMAIL,GMAIL,BS0,BOOL,0,0,-2
+GMAIL,GMAIL,BSN,BOOL,Null,Null,1
+GMAIL,GMAIL,CC1,BOOL,1,1,1
+GMAIL,GMAIL,CC0,BOOL,0,0,-1
+GMAIL,GMAIL,CCN,BOOL,Null,Null,1
+GMAIL,GMAIL,Mobile Bill1,BOOL,1,1,1
+GMAIL,GMAIL,Mobile Bill0,BOOL,0,0,-1
+GMAIL,GMAIL,Mobile BillN,BOOL,Null,Null,1
+GMAIL,GMAIL,CC Number0,Value,0,0,0
+GMAIL,GMAIL,CC Number1,Value,1,1,1
+GMAIL,GMAIL,CC Number2,Value,2,2,0
+GMAIL,GMAIL,CC Number3,Value,3,,-2
+GMAIL,GMAIL,Competitors0,Value,0,0,2
+GMAIL,GMAIL,Competitors1,Value,2,2,1
+GMAIL,GMAIL,Competitors2,Value,2,2,-2
+GMAIL,GMAIL,Competitors3,Value,3,,-5
+GMAIL,GMAIL,Interview offers1,BOOL,1,1,-5
+GMAIL,GMAIL,Interview offers0,BOOL,0,0,1
+GMAIL,GMAIL,PS1,BOOL,1,1,1
+GMAIL,GMAIL,PS0,BOOL,0,0,-1
